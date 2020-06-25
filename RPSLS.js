@@ -4,8 +4,14 @@ class Game {
     constructor(){
         this.playerOne = new Player();
         this.playerTwo = new Player();
-    }
+        
+        this.handGesture = [];
+
     functiongameGestures = ["Rock","Paper","Scissors","Lizard","Spock"];
+    
+    
+
+    } 
 }
 
 class Player {
@@ -24,5 +30,5 @@ class HumanPlayer extends Player{
 
 class AIPlayer extends Player{
 
-    
+
 }
