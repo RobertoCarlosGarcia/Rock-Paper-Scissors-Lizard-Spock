@@ -13,6 +13,16 @@ class Player {
         this.name = name;
         this.score = 0;
 
+     }
+}
 
-    }
+class HumanPlayer extends Player{
+
+
+
+}
+
+class AIPlayer extends Player{
+
+    
 }
