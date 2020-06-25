@@ -4,8 +4,8 @@ class Game {
     constructor(){
         this.playerOne = new Player();
         this.playerTwo = new Player();
-
     }
+    functiongameGestures = ["Rock","Paper","Scissors","Lizard","Spock"];
 }
 
 class Player {
